@@ -17,9 +17,10 @@ It does not use OpenGL or DirectX. Instead, it implements the 3D graphics pipeli
 ---
 ## How to Build
 
-1. Compile the project using `g++` (requires C++17 or later):
+1. Compile the project using `g++`:
    ```bash
    g++ -std=c++17 main.cpp model.cpp our_gl.cpp tgaimage.cpp -o renderer.exe
    ./renderer obj/<.obj filename> 
 2. After rendering an output file will be created with the below name:
-    framebuffer.tga
+
+         framebuffer.tga
