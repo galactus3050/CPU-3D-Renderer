@@ -1,16 +1,15 @@
 # CPU-3D-Renderer
 
-TinyRenderer is a software-based 3D rendering engine.
-It does not use OpenGL or DirectX. Instead, it implements the 3D graphics pipeline completely in C++, allowing you to understand how rendering works internally.
+This is a software-based 3D rendering engine.
+It does not use OpenGL or DirectX, instead, it implements the 3D graphics pipeline completely in C++, allowing you to understand how rendering works internally.
 
 ---
 
 ## Features
 - Load and render **.obj 3D models**
 - Software rasterization of triangles
-- Simulated **vertex and fragment shaders** in pure C++
+- Simulated **vertex and fragment shaders**
 - Perspective projection and camera transformations
-- Z-buffer for depth handling
 - Diffuse, specular, and normal mapping
 - Outputs the final rendered image as a **TGA file** (CPU-only)
 
